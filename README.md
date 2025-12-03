@@ -11,7 +11,7 @@
 # LiveKit Agents Playground
 
 <!--BEGIN_DESCRIPTION-->
-The Agent Playground is designed for quickly prototyping with server side agents built with [LiveKit Agents Framework](https://github.com/livekit/agents). Easily tap into LiveKit WebRTC sessions and process or generate audio, video, and data streams.
+The Agent Playground is designed for quickly prototyping with server side agents built with [LiveKit Agents Framework](https://github.com/Talent-King/agents). Easily tap into LiveKit WebRTC sessions and process or generate audio, video, and data streams.
   The playground includes components to fully interact with any LiveKit agent, through video, audio and chat.
 <!--END_DESCRIPTION-->
 
@@ -19,7 +19,7 @@ The Agent Playground is designed for quickly prototyping with server side agents
 
 Docs for how to get started with LiveKit agents at [https://docs.livekit.io/agents](https://docs.livekit.io/agents)
 
-The repo containing the (server side) agent implementations (including example agents): [https://github.com/livekit/agents](https://github.com/livekit/agents)
+The repo containing the (server side) agent implementations (including example agents): [https://github.com/Talent-King/agents](https://github.com/Talent-King/agents)
 
 ## Try out a live version
 
@@ -60,7 +60,7 @@ pnpm run dev
 ## Notes
 
 - This playground is currently work in progress. There are known layout/responsive bugs and some features are under tested.
-- The playground was tested against the kitt example in `https://github.com/livekit/agents`.
+- The playground was tested against the kitt example in `https://github.com/Talent-King/agents`.
 - Feel free to ask questions, request features in our [community slack](https://livekit.io/join-slack).
 
 ## Known issues
@@ -72,12 +72,12 @@ pnpm run dev
 <br/><table>
 <thead><tr><th colspan="2">LiveKit Ecosystem</th></tr></thead>
 <tbody>
-<tr><td>LiveKit SDKs</td><td><a href="https://github.com/livekit/client-sdk-js">Browser</a> · <a href="https://github.com/livekit/client-sdk-swift">iOS/macOS/visionOS</a> · <a href="https://github.com/livekit/client-sdk-android">Android</a> · <a href="https://github.com/livekit/client-sdk-flutter">Flutter</a> · <a href="https://github.com/livekit/client-sdk-react-native">React Native</a> · <a href="https://github.com/livekit/rust-sdks">Rust</a> · <a href="https://github.com/livekit/node-sdks">Node.js</a> · <a href="https://github.com/livekit/python-sdks">Python</a> · <a href="https://github.com/livekit/client-sdk-unity">Unity</a> · <a href="https://github.com/livekit/client-sdk-unity-web">Unity (WebGL)</a> · <a href="https://github.com/livekit/client-sdk-esp32">ESP32</a></td></tr><tr></tr>
-<tr><td>Server APIs</td><td><a href="https://github.com/livekit/node-sdks">Node.js</a> · <a href="https://github.com/livekit/server-sdk-go">Golang</a> · <a href="https://github.com/livekit/server-sdk-ruby">Ruby</a> · <a href="https://github.com/livekit/server-sdk-kotlin">Java/Kotlin</a> · <a href="https://github.com/livekit/python-sdks">Python</a> · <a href="https://github.com/livekit/rust-sdks">Rust</a> · <a href="https://github.com/agence104/livekit-server-sdk-php">PHP (community)</a> · <a href="https://github.com/pabloFuente/livekit-server-sdk-dotnet">.NET (community)</a></td></tr><tr></tr>
-<tr><td>UI Components</td><td><a href="https://github.com/livekit/components-js">React</a> · <a href="https://github.com/livekit/components-android">Android Compose</a> · <a href="https://github.com/livekit/components-swift">SwiftUI</a> · <a href="https://github.com/livekit/components-flutter">Flutter</a></td></tr><tr></tr>
-<tr><td>Agents Frameworks</td><td><a href="https://github.com/livekit/agents">Python</a> · <a href="https://github.com/livekit/agents-js">Node.js</a> · <b>Playground</b></td></tr><tr></tr>
-<tr><td>Services</td><td><a href="https://github.com/livekit/livekit">LiveKit server</a> · <a href="https://github.com/livekit/egress">Egress</a> · <a href="https://github.com/livekit/ingress">Ingress</a> · <a href="https://github.com/livekit/sip">SIP</a></td></tr><tr></tr>
-<tr><td>Resources</td><td><a href="https://docs.livekit.io">Docs</a> · <a href="https://github.com/livekit-examples">Example apps</a> · <a href="https://livekit.io/cloud">Cloud</a> · <a href="https://docs.livekit.io/home/self-hosting/deployment">Self-hosting</a> · <a href="https://github.com/livekit/livekit-cli">CLI</a></td></tr>
+<tr><td>LiveKit SDKs</td><td><a href="https://github.com/Talent-King/client-sdk-js">Browser</a> · <a href="https://github.com/Talent-King/client-sdk-swift">iOS/macOS/visionOS</a> · <a href="https://github.com/Talent-King/client-sdk-android">Android</a> · <a href="https://github.com/Talent-King/client-sdk-flutter">Flutter</a> · <a href="https://github.com/Talent-King/client-sdk-react-native">React Native</a> · <a href="https://github.com/Talent-King/rust-sdks">Rust</a> · <a href="https://github.com/Talent-King/node-sdks">Node.js</a> · <a href="https://github.com/Talent-King/python-sdks">Python</a> · <a href="https://github.com/Talent-King/client-sdk-unity">Unity</a> · <a href="https://github.com/Talent-King/client-sdk-unity-web">Unity (WebGL)</a> · <a href="https://github.com/Talent-King/client-sdk-esp32">ESP32</a></td></tr><tr></tr>
+<tr><td>Server APIs</td><td><a href="https://github.com/Talent-King/node-sdks">Node.js</a> · <a href="https://github.com/Talent-King/server-sdk-go">Golang</a> · <a href="https://github.com/Talent-King/server-sdk-ruby">Ruby</a> · <a href="https://github.com/Talent-King/server-sdk-kotlin">Java/Kotlin</a> · <a href="https://github.com/Talent-King/python-sdks">Python</a> · <a href="https://github.com/Talent-King/rust-sdks">Rust</a> · <a href="https://github.com/agence104/livekit-server-sdk-php">PHP (community)</a> · <a href="https://github.com/pabloFuente/livekit-server-sdk-dotnet">.NET (community)</a></td></tr><tr></tr>
+<tr><td>UI Components</td><td><a href="https://github.com/Talent-King/components-js">React</a> · <a href="https://github.com/Talent-King/components-android">Android Compose</a> · <a href="https://github.com/Talent-King/components-swift">SwiftUI</a> · <a href="https://github.com/Talent-King/components-flutter">Flutter</a></td></tr><tr></tr>
+<tr><td>Agents Frameworks</td><td><a href="https://github.com/Talent-King/agents">Python</a> · <a href="https://github.com/Talent-King/agents-js">Node.js</a> · <b>Playground</b></td></tr><tr></tr>
+<tr><td>Services</td><td><a href="https://github.com/Talent-King/livekit">LiveKit server</a> · <a href="https://github.com/Talent-King/egress">Egress</a> · <a href="https://github.com/Talent-King/ingress">Ingress</a> · <a href="https://github.com/Talent-King/sip">SIP</a></td></tr><tr></tr>
+<tr><td>Resources</td><td><a href="https://docs.livekit.io">Docs</a> · <a href="https://github.com/Talent-King-examples">Example apps</a> · <a href="https://livekit.io/cloud">Cloud</a> · <a href="https://docs.livekit.io/home/self-hosting/deployment">Self-hosting</a> · <a href="https://github.com/Talent-King/livekit-cli">CLI</a></td></tr>
 </tbody>
 </table>
 <!--END_REPO_NAV-->
